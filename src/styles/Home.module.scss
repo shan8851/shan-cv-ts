@@ -1,0 +1,20 @@
+@import "./colors";
+@import "./variables";
+
+.container {
+  background-color: $dark;
+  border-radius: $x1;
+  padding: $space-huge;
+  max-width: $desktop;
+  margin: $space-mega auto;
+
+  @media (max-width: $tablet) {
+    margin: $space-normal;
+    padding: $space-normal;
+  }
+}
+
+.line {
+  border-top: 1px solid $green;
+  margin: $x2 0;
+}
