@@ -13,4 +13,11 @@ export const data = [
     description:
       "A Rinkedry faucet allowing users to request 0.05 Rinkeby ETH every 24 hours. In the effort to try and maintain the life and usability of the project it also accepts donations of 0.1 ETH. Top donators are ranked on the site to again add more incentive to donate. Supports ENS domains and verified avatars too",
   },
+  {
+    id: 2,
+    title: "Simple Storage",
+    url: "https://shans-simple-storage.vercel.app/",
+    description:
+      "A simple Dapp and smart contracting allowing you to set and read a message from the blockchain. Deployed on the Rinkeby testnet and collates some other usage stats too",
+  },
 ];
